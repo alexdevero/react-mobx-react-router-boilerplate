@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+}

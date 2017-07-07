@@ -1,0 +1,88 @@
+html {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.6;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: #111;
+  line-height: inherit;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: remy(12.8px);
+}
+
+h5,
+h6 {
+  margin-top: remy(64px);
+  font-size: remy(20px);
+  line-height: remy(32px);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: remy(80px);
+  line-height: remy(128px);
+}
+
+h2 {
+  margin-top: remy(64px);
+  font-size: remy(40px);
+  line-height: remy(48px);
+}
+
+h3 {
+  margin-top: remy(51.2px);
+  font-size: remy(28.75px);
+  line-height: remy(32px);
+}
+
+h4 {
+  margin-top: remy(38px);
+  font-size: remy(24px);
+  line-height: remy(32px);
+}
+
+h1 + h2 {
+  margin-top: remy(25.6px);
+}
+
+h2 + h3,
+h3 + h4,
+h4 + h5 {
+  margin-top: remy(12.8px);
+}
+
+h5 + h6 {
+  margin-top: remy(-12.8px);
+}
+
+small,
+.text--small {
+  font-size: 80%;
+}
+
+a {
+  color: rgba(#000, .9);
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: rgba(#000, 1);
+  }
+
+  &.active {
+    color: rgba(#000, 1);
+  }
+}

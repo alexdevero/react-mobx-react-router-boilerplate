@@ -1,0 +1,18 @@
+// Footer component
+
+footer {
+  padding: remy(18px) 0;
+  width: 100%;
+  font-size: remy(13px);
+  color: #666;
+  text-align: center;
+  border-top: 1px solid #eee;
+
+  a {
+    margin-left: .5ch;
+
+    &:first-child {
+      margin-right: .5ch;
+    }
+  }
+}

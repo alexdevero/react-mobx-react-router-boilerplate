@@ -1,0 +1,20 @@
+// Buttons atom
+
+.btn {
+  position: relative;
+  display: inline-block;
+  padding-left: remy(12px);
+  font-weight: 400;
+  line-height: 1.25;
+  padding: remy(16px) remy(22px);
+  font-size: remy(18px);
+  font-weight: 600;
+  color: #fff;
+  background: #111;
+  border: 2px solid #000;
+
+  &:hover {
+    color: #111;
+    background: #fff;
+  }
+}

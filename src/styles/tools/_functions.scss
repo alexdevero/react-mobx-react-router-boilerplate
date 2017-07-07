@@ -1,0 +1,6 @@
+// Functions
+
+// Convert pixels to rems
+@function remy($value, $base: 16px) {
+  @return ($value / $base) * 1rem;
+}

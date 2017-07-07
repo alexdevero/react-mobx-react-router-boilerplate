@@ -1,0 +1,20 @@
+// Nav component
+
+nav {
+  display: flex;
+  flex: 1;
+
+  a {
+    margin-right: 24px;
+    font-weight: 500;
+    color: rgba(#000, .5);
+
+    &:hover {
+      color: rgba(#000, 1);
+    }
+  }
+
+  .active {
+    color: rgba(#000, 1);
+  }
+}

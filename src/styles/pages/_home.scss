@@ -1,0 +1,147 @@
+// Page Home
+
+.home {
+  main {
+    padding: remy(48px) remy(24px);
+
+    @media screen and (min-width: 961px) {
+      margin: 0 auto;
+      width: 100%;
+      max-width: remy(960px);
+    }
+  }
+}
+
+.page__top {
+  padding-top: remy(96px);
+  padding-bottom: remy(96px);
+  text-align: center;
+
+  h1 {
+    margin-bottom: remy(12px);
+    font-size: remy(32px);
+    line-height: 1.6;
+  }
+
+  .btn {
+    margin-top: remy(12px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.boilerplate-logo {
+  clear: both;
+  display: block;
+  flex: none;
+  overflow: hidden;
+  margin-bottom: remy(24px);
+  width: 100%;
+  height: remy(112px);
+  background: url(bull-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: remy(112px);
+}
+
+.main__header {
+  padding-bottom: 72px;
+  width: 100%;
+  color: #000;
+  text-align: center;
+}
+
+hr {
+  margin: 24px auto 0;
+  max-width: 96px;
+  height: 1px;
+  color: #ddd;
+  background-color: #ddd;
+  border: none;
+}
+
+.main__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.main__item {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: column nowrap;
+  width: 100%;
+  text-align: center;
+
+  @media (min-width: 555px) {
+    max-width: calc(50% - 48px);
+
+    &:nth-of-type(2n+2) {
+      margin-right: remy(48px);
+      margin-left: remy(48px);
+    }
+  }
+
+  @media (min-width: 555px) and (max-width: 991px) {
+    &:nth-of-type(n+3) {
+      margin-top: remy(48px);
+    }
+  }
+
+  @media (min-width: 992px) {
+    max-width: calc(33.33333% - 32px);
+
+    &:nth-of-type(2) {
+      margin-right: remy(48px);
+      margin-left: remy(48px);
+    }
+
+    &:last-of-type {
+      margin-top: remy(26px);
+    }
+  }
+
+  h4 {
+    margin-top: remy(16px);
+  }
+}
+
+.main__item-logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: remy(48px);
+  height: remy(48px);
+  background: url(react-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &.mobx {
+    background: url(mobx-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &.reactrouter {
+    background: url(react-router-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &.webpack {
+    background: url(webpack-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.main__extras {
+  text-align: center;
+
+  ul {
+    padding: 0;
+    margin: remy(24px) 0 0;
+    list-style-type: none;
+  }
+}
