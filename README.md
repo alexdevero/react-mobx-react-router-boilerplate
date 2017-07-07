@@ -1,8 +1,8 @@
 # React MobX React-Router Boilerplate (heroku-ready)
 
-### React, MobX, React-Router and Webpack 3.
+### React, MobX, React-Router and Webpack.
 
-React, React-Router, MobX, MobX-Router and Webpack 3-boilerplate with async routes. This boilerplate is also ready for heroku deployment.
+React, MobX, React-Router and Webpack boilerplate with async routes. This boilerplate is also ready for deploying your app to Heroku.
 
 Install all dependencies
 -----
@@ -49,7 +49,7 @@ npm run preview
 ```
 
 #### Async component loading
-Components are now loaded async with react-router-loader and the store is injected via MobX Provider. 
+Components are now loaded async with react-router-loader and the store is injected via MobX Provider.
 
 License
 -----
