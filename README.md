@@ -4,6 +4,12 @@
 
 React, MobX, React-Router and Webpack boilerplate with async routes. This boilerplate is also ready for deploying your app to Heroku.
 
+### Status
+<!-- [![Build Status](https://circleci.com/gh/alexdevero/react-mobx-react-router-boilerplate.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/alexdevero/react-mobx-react-router-boilerplate/) -->
+[![Dependency Status](https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate.svg?style=flat)](https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate)
+[![devDependency Status](https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate/dev-status.svg?style=flat)](https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate?type=dev)
+[![Built by DEVERO](https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320)](https://alexdevero.com)
+
 Install all dependencies
 -----
 
