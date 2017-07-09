@@ -1,14 +1,26 @@
-# React MobX React-Router Boilerplate (heroku-ready)
+<p align="center">
+  <img src="https://cdn.rawgit.com/alexdevero/react-mobx-react-router-boilerplate/master/src/images/bull-icon.svg" width="135" align="center">
+</p>
 
-### React, MobX, React-Router and Webpack.
+<p align="center">
+  <a href="https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate" ><img alt="Dependency Status" src="https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate.svg?style=flat"></a>
+  <a href="https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate?type=dev" ><img alt="devDependency Status" src="https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate/dev-status.svg?style=flat"></a>
+  <a href="https://alexdevero.com" ><img alt="Built by DEVERO" src="https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320"></a>
+</p>
+
+<!-- # React MobX React-Router Boilerplate (heroku-ready) -->
+
+### React - MobX - React-Router - Webpack Boilerplate (heroku-ready)
 
 React, MobX, React-Router and Webpack boilerplate with async routes. This boilerplate is also ready for deploying your app to Heroku.
 
+<!-- 
 ### Status
-<!-- [![Build Status](https://circleci.com/gh/alexdevero/react-mobx-react-router-boilerplate.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/alexdevero/react-mobx-react-router-boilerplate/) -->
+[![Build Status](https://circleci.com/gh/alexdevero/react-mobx-react-router-boilerplate.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/alexdevero/react-mobx-react-router-boilerplate/)
 [![Dependency Status](https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate.svg?style=flat)](https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate)
 [![devDependency Status](https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate/dev-status.svg?style=flat)](https://david-dm.org/alexdevero/react-mobx-react-router-boilerplate?type=dev)
 [![Built by DEVERO](https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320)](https://alexdevero.com)
+-->
 
 Install all dependencies
 -----
