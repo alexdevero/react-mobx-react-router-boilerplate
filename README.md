@@ -1,5 +1,7 @@
 <p align="center">
   <img src="https://cdn.rawgit.com/alexdevero/react-mobx-react-router-boilerplate/master/src/images/bull-icon.svg" width="135" align="center">
+  <br>
+  <br>
 </p>
 
 <p align="center">
@@ -10,7 +12,7 @@
 
 <!-- # React MobX React-Router Boilerplate (heroku-ready) -->
 
-### React - MobX - React-Router - Webpack Boilerplate (heroku-ready)
+## React - MobX - React-Router - Webpack Boilerplate (heroku-ready)
 
 React, MobX, React-Router and Webpack boilerplate with async routes. This boilerplate is also ready for deploying your app to Heroku.
 
@@ -22,7 +24,7 @@ React, MobX, React-Router and Webpack boilerplate with async routes. This boiler
 [![Built by DEVERO](https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320)](https://alexdevero.com)
 -->
 
-Install all dependencies
+### Install all dependencies
 -----
 
 ```
@@ -33,7 +35,7 @@ or
 npm install
 ```
 
-Start project on local server (go to localhost:1337)
+### Start project on local server (go to localhost:1337)
 -----
 
 ```
@@ -44,7 +46,7 @@ or
 npm start
 ```
 
-Build project (in "dist" folder):
+### Build project (in "dist" folder):
 -----
 
 ```
@@ -55,7 +57,7 @@ or
 npm run build
 ```
 
-Preview minified production-ready bundle (go to localhost:3000)
+### Preview minified production-ready bundle (go to localhost:3000)
 -----
 
 ```
@@ -69,12 +71,8 @@ npm run preview
 #### Async component loading
 Components are now loaded async with react-router-loader and the store is injected via MobX Provider.
 
-License
+#### License
 -----
 
 Copyright (c) 2017 [Alex Devero](https://alexdevero.com).
 Licensed under the [MIT license](http://opensource.org/licenses/MIT).
-
-### Todo
-
-- [ ] Add demo
