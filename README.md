@@ -15,7 +15,7 @@
   <a href="#"><img alt="Downloads last week" src="https://img.shields.io/npm/dw/localeval.svg"></a>
   <a href="#"><img alt="Downloads last moth" src="https://img.shields.io/npm/dm/localeval.svg"></a>
   <a href="#"><img alt="Downloads last year" src="https://img.shields.io/npm/dy/localeval.svg"></a>
-  <a href="#"><img alt="Downloads last year" src="https://img.shields.io/github/release/alexdevero/react-mobx-react-router-boilerplate.svg"></a>
+  <a href="#"><img alt="Releases" src="https://img.shields.io/github/release/alexdevero/react-mobx-react-router-boilerplate.svg"></a>
 </p>
 
 <!-- # React MobX React-Router Boilerplate (heroku-ready) -->
