@@ -3359,8 +3359,8 @@ ignore@^3.1.2:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.3.tgz#432352e57accd87ab3110e82d3fea0e47812156d"
 
 image-webpack-loader@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/image-webpack-loader/-/image-webpack-loader-3.4.0.tgz#a4cbef8743ab61c3eba38be68e4b9f24a4ad7515"
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/image-webpack-loader/-/image-webpack-loader-3.4.1.tgz#df748d61aa258f319ff3ffbf5df89df00e3034db"
   dependencies:
     imagemin "^5.2.2"
     imagemin-gifsicle "^5.1.0"
