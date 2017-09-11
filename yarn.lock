@@ -3358,9 +3358,9 @@ ignore@^3.1.2:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.3.tgz#432352e57accd87ab3110e82d3fea0e47812156d"
 
-image-webpack-loader@^3.4.0:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/image-webpack-loader/-/image-webpack-loader-3.4.1.tgz#df748d61aa258f319ff3ffbf5df89df00e3034db"
+image-webpack-loader@^3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/image-webpack-loader/-/image-webpack-loader-3.4.2.tgz#7e8bfa7270e853eee6d7861f0ed6a3c12d8a20f8"
   dependencies:
     imagemin "^5.2.2"
     imagemin-gifsicle "^5.1.0"
@@ -7109,9 +7109,9 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.5.5:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.5.tgz#3226f09fc8b3e435ff781e7af34f82b68b26996c"
+webpack@^3.5.6:
+  version "3.5.6"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.6.tgz#a492fb6c1ed7f573816f90e00c8fbb5a20cc5c36"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
