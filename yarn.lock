@@ -2617,9 +2617,9 @@ extglob@^0.3.1:
   dependencies:
     is-extglob "^1.0.0"
 
-extract-text-webpack-plugin@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/extract-text-webpack-plugin/-/extract-text-webpack-plugin-3.0.0.tgz#90caa7907bc449f335005e3ac7532b41b00de612"
+extract-text-webpack-plugin@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/extract-text-webpack-plugin/-/extract-text-webpack-plugin-3.0.1.tgz#605a8893faca1dd49bb0d2ca87493f33fd43d102"
   dependencies:
     async "^2.4.1"
     loader-utils "^1.1.0"
@@ -6194,9 +6194,9 @@ sass-graph@^2.1.1:
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
 
-sass-lint@^1.11.1:
-  version "1.11.1"
-  resolved "https://registry.yarnpkg.com/sass-lint/-/sass-lint-1.11.1.tgz#1ccea9be01e60fd0ca7ddf379a0096311b218240"
+sass-lint@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/sass-lint/-/sass-lint-1.12.0.tgz#299ec57cd158fb4afbe22cb322799cc630a3e33b"
   dependencies:
     commander "^2.8.1"
     eslint "^2.7.0"
@@ -6661,9 +6661,9 @@ strip-outer@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-style-loader@^0.18.2:
-  version "0.18.2"
-  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.18.2.tgz#cc31459afbcd6d80b7220ee54b291a9fd66ff5eb"
+style-loader@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.19.0.tgz#7258e788f0fee6a42d710eaf7d6c2412a4c50759"
   dependencies:
     loader-utils "^1.0.2"
     schema-utils "^0.3.0"
