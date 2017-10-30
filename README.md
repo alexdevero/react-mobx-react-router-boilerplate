@@ -1,4 +1,4 @@
-<p align="center">
+﻿<p align="center">
   <img src="https://cdn.rawgit.com/alexdevero/react-mobx-react-router-boilerplate/master/src/images/bull-icon.svg" width="135" align="center">
   <br>
   <br>
@@ -38,12 +38,14 @@ React, MobX, React-Router and Webpack boilerplate with async routes. This boiler
 
 ### Install
 
-#### Clone this repo:
+#### Clone this repo
+
 ```
 $ git clone https://github.com/alexdevero/react-mobx-react-router-boilerplate.git
 ```
 
 #### Install dependencies
+
 ```
 yarn
 ```
