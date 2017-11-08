@@ -9,11 +9,11 @@
     "yarn": ">=0.24.x"
   },
   "scripts": {
-    "start": "set NODE_ENV=development && webpack-dev-server --config webpack.config.js",
-    "build": "set NODE_ENV=production && rimraf ./dist && webpack --config webpack.config.production.js",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js",
+    "build": "cross-env NODE_ENV=production rimraf ./dist && webpack --config webpack.config.production.js",
     "postinstall": "webpack --config ./webpack.config.production.js --display-error-details",
-    "preview": "set NODE_ENV=preview http-server ./dist -p 1234 -c-1",
-    "test": "set NODE_ENV=test && echo \"Error: no test specified\" && exit 1"
+    "preview": "cross-env NODE_ENV=preview http-server ./dist -p 1234 -c-1",
+    "test": "cross-env NODE_ENV=test echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -47,6 +47,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.1.1",
     "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
