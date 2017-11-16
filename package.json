@@ -52,10 +52,10 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^2.30.1",
     "image-webpack-loader": "^3.4.2",
-    "node-sass": "^4.6.0",
+    "node-sass": "^4.6.1",
     "normalize.css": "^7.0.0",
     "postcss-loader": "^2.0.8",
-    "react-hot-loader": "3.1.1",
+    "react-hot-loader": "3.1.3",
     "resolve-url-loader": "^2.2.0",
     "rimraf": "^2.6.2",
     "sass-lint": "^1.12.1",
@@ -66,7 +66,7 @@
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
-    "axios": "^0.17.0",
+    "axios": "^0.17.1",
     "css-declaration-sorter": "^2.1.0",
     "css-mqpacker": "^6.0.1",
     "file-loader": "^1.1.5",
@@ -78,8 +78,8 @@
     "mobx-react-router": "^4.0.1",
     "package": "^1.0.1",
     "postcss-cssnext": "^3.0.2",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
     "react-router-dom": "^4.2.2",
     "rfx-core": "^1.5.3",
     "whatwg-fetch": "^2.0.3"
