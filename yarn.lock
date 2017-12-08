@@ -4596,9 +4596,9 @@ mobx-react@^4.3.5:
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
-mobx@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-3.3.2.tgz#e912a9f7c82b2df69f1abe6515ecaa551828a024"
+mobx@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-3.4.1.tgz#37abe5ee882d401828d9f26c6c1a2f47614bbbef"
 
 mozjpeg@^4.0.0:
   version "4.1.1"
@@ -7378,9 +7378,9 @@ webpack-dev-middleware@^1.11.0:
     path-is-absolute "^1.0.0"
     range-parser "^1.0.3"
 
-webpack-dev-server@^2.9.5:
-  version "2.9.5"
-  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-2.9.5.tgz#79336fba0087a66ae491f4869f6545775b18daa8"
+webpack-dev-server@^2.9.7:
+  version "2.9.7"
+  resolved "https://registry.yarnpkg.com/webpack-dev-server/-/webpack-dev-server-2.9.7.tgz#100ad6a14775478924d417ca6dcfb9d52a98faed"
   dependencies:
     ansi-html "0.0.7"
     array-includes "^3.0.3"
@@ -7417,9 +7417,9 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.9.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.9.1.tgz#9a60aa544ed5d4d454c069e3f521aa007e02643c"
+webpack@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.10.0.tgz#5291b875078cf2abf42bdd23afe3f8f96c17d725"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
