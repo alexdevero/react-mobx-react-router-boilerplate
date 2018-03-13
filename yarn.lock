@@ -5693,15 +5693,15 @@ mobx-react-router@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/mobx-react-router/-/mobx-react-router-4.0.1.tgz#72f67b5c637d187595415500e8afa5cddb2231ab"
 
-mobx-react@^4.4.3:
-  version "4.4.3"
-  resolved "https://registry.yarnpkg.com/mobx-react/-/mobx-react-4.4.3.tgz#baa9ec41165ee35ae7b9df19bca10190f36f117e"
+mobx-react@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/mobx-react/-/mobx-react-5.0.0.tgz#8d5a33be376fa22b184a6f555d40a6a3a8459a16"
   dependencies:
     hoist-non-react-statics "^2.3.1"
 
-mobx@^3.6.1:
-  version "3.6.1"
-  resolved "https://registry.yarnpkg.com/mobx/-/mobx-3.6.1.tgz#ae63a8f00e1485a740d0f91ae2f6a5f68e303bea"
+mobx@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-4.0.0.tgz#3e03d39e2ff187372120db30187b0383f51ec876"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
