@@ -81,7 +81,7 @@ export default class Home extends Component {
 					        href='https://react-router.now.sh/'
 					        target='_blank'
 					      >
-					        <h4>React Router (v4)</h4>
+					        <h4>React Router</h4>
 					      </a>
 
 					      <small>Routing Library</small>
@@ -95,7 +95,7 @@ export default class Home extends Component {
 
 					    <div className='main__item-content'>
 					      <a href='http://webpack.github.io/' target='_blank'>
-					        <h4>Webpack (v3)</h4>
+					        <h4>Webpack</h4>
 					      </a>
 
 					      <small>Module Bundler</small>
