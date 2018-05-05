@@ -4,9 +4,9 @@
   "description": "React, MobX, React-Router, MobX-Router and Webpack (heroku-ready) boilerplate with async routes.",
   "main": "webpack.config.js",
   "engines": {
-    "node": ">=8.x",
-    "npm": ">=5.x",
-    "yarn": ">=0.24.x"
+    "node": ">=9.0",
+    "npm": ">=5.0",
+    "yarn": ">=1.0"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js --mode development",
