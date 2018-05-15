@@ -1,7 +1,7 @@
-var path = require('path');
-var webpack = require('webpack');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
+const path = require('path');
+const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
@@ -40,15 +40,13 @@ module.exports = {
       },
       {
         test: /\.scss|css$/i,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [
-            { loader: 'css-loader', options: { sourceMap: true } },
-            { loader: 'postcss-loader', options: { sourceMap: true } },
-            { loader: 'resolve-url-loader' },
-            { loader: 'sass-loader', options: { sourceMap: true } }
-          ]
-        })
+        use: [
+          MiniCssExtractPlugin.loader,
+          { loader: 'css-loader', options: { sourceMap: true } },
+          { loader: 'postcss-loader', options: { sourceMap: true } },
+          { loader: 'resolve-url-loader' },
+          { loader: 'sass-loader', options: { sourceMap: true } }
+        ]
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
@@ -92,7 +90,12 @@ module.exports = {
     }),
     new webpack.NamedModulesPlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(true),
-    new ExtractTextPlugin('assets/styles.css'),
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: 'assets/styles.css',
+      chunkFilename: '[id].css'
+    }),
     new HtmlWebpackPlugin({
       hash: false,
       template: './index.hbs'
