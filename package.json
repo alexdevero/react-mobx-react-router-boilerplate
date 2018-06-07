@@ -51,7 +51,6 @@
     "css-declaration-sorter": "^3.0.1",
     "css-loader": "^0.28.11",
     "css-mqpacker": "^6.0.2",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^4.3.0",
