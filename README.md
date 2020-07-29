@@ -1,4 +1,9 @@
-﻿<p align="center">
+<p align="center">
+  🚧 This repository is no longer maintained.🚧
+  <br>
+</p>
+
+<p align="center">
   <img src="https://cdn.rawgit.com/alexdevero/react-mobx-react-router-boilerplate/master/src/images/bull-icon.svg" width="135" align="center">
   <br>
   <br>
